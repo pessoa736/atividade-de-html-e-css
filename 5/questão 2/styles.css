@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+    font-weight: 900;
+}
+
+body {
+    background-color: black;
+
+}
+
+header {
+    background-color: white;
+    justify-items: center;
+    padding: 1%;
+}
+
+nav {
+    margin: 2%;
+    padding: 2%;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    width: 95%;
+    border-radius: 8px;
+    background-color: black;
+}
+
+
+a {
+    padding: 4px;
+    color: white;
+    transition: 0.4s transform ease, 0.4s box-shadow ease, 0.4s border ease;
+}
+a:hover{
+    border: 3px solid black;
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    transform: scale(1.25) translate(0px, -10px);
+    box-shadow: -2px 2px white;
+}

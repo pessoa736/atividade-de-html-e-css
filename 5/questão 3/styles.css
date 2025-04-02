@@ -1,0 +1,23 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 5%;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 5px;
+}
+
+@media (max-width: 900){
+    .container {
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+img {
+    border-radius: 10px;
+}

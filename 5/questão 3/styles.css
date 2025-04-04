@@ -2,22 +2,67 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Comic Sans MS";
+    font-weight: 900;
 }
 
 .container {
-    margin: 5%;
-    width: 85%;
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    gap: 5px;
+    margin: 2.5%;
+    padding: 2.5%;
+    max-width: max-content;
+    min-width: min-content;
+    
+    border: 3px solid black;
+    border-radius: 10px;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    box-shadow: -5px 5px black;
 }
 
-@media (max-width: 900){
-    .container {
-        grid-template-columns: repeat(2, 2fr);
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+@media (max-width: 1200px){
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px){
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
 img {
+    margin: 5px;
     border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: -2.5px 2.5px black;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    transition: 0.9s transform ease, 1s margin ease;
+}
+
+img:hover {
+    transform: scale(1.15);
+    margin: 15px;
+    
 }

@@ -5,6 +5,14 @@
     font-family: "Comic Sans MS";
     font-weight: 900;
 }
+body{
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
 
 .container {
     margin: 2.5%;

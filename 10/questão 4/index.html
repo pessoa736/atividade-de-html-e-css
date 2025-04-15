@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: "comic sans ms", cursive, sans-serif;
+            background-color: #008;
+            padding: 10%;
+            color: #00eeff;
+            justify-items: center;
+            align-items: center;
+
+        }
+        .container {
+            background-color: #00f;
+            padding: 10%;
+            color: #00eeff;
+            justify-items: center;
+            align-items: center;
+            border-radius: 10px;
+            border: #00eeff solid 5px;
+            box-shadow: -2px 2px 20px #0000ff,-10px 10px 1px #00eeff;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-weight: 900;
+        }
+        button {
+            background-color: #0ff;
+            color: #000eff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+            border: #00eeff solid 5px;
+            transition: 0.5s color, 0.5s background-color;
+
+            
+        }
+        button:hover {
+            background-color: #0000ff;
+            color: #0ef;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <label for="input"> (em quilometro por segundo) qual a velocidade do seu carro? </label>
+            <input type="number" id="input" required>
+            <button type="submit">Enviar</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

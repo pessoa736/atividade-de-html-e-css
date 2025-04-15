@@ -1,0 +1,90 @@
+body {
+    background-color: #f0f0f0;
+    font-family: "comic sans ms", cursive, sans-serif;
+    background-color: #0ef;
+    padding: 5%;
+    color: #0000ff;
+    justify-items: center;
+    align-items: center;
+
+}
+.container {
+    background-color: #0ef;
+    padding: 5%;
+    min-width: 10%;
+    min-height: 10%;
+    color: #0000ff;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    border: #0000ff solid 5px;
+    box-shadow: -10px 10px 1px #00ff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+button {
+    background-color: #00f;
+    color: #00eeff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: #0000ff solid 5px;
+    transition: 0.5s color, 0.5s background-color;
+
+    
+}
+button:hover {
+    background-color: #00eeff;
+    color: #00f;
+}
+
+input {
+    background-color: #0ff;
+    border: #0000ff solid 3px;
+    border-radius: 8px;
+}
+
+.aprovacao {
+    background-color: #0f0;
+    color: #0000ff;
+    border: #0000ff solid 5px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 1px #00ff;
+}
+
+.recuperacao {
+    background-color: #ff0;
+    color: #0000ff;
+    border: #0000ff solid 5px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 1px #00ff;
+}
+
+.dependencia {
+    background-color: #f80;
+    color: #720;
+    border: #720 solid 5px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 1px #720;
+}
+
+.reprovacao {
+    background-color: #f00;
+    color: #400;
+    border: #400 solid 5px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 1px #400;
+}
